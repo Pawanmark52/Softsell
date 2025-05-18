@@ -1,12 +1,124 @@
-# React + Vite
+# SoftSell 🧾 – Software License Resale Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**SoftSell** is a single-page responsive marketing website for a fictional B2B startup that helps users sell their unused software licenses.  
+This project was built as part of the **Credex Web Development Internship Assignment**, with a focus on modern UX/UI, responsive layout, and clean React architecture.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Preview
 
-## Expanding the ESLint configuration
+🌐 **Live Demo**: [https://Pawanmark52.github.io/Softsell](https://Pawanmark52.github.io/Softsell)  
+📂 **GitHub Repo**: [https://github.com/Pawanmark52/Softsell](https://github.com/Pawanmark52/Softsell)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📦 Tech Stack
+
+| Layer        | Tech                   |
+| ------------ | ---------------------- |
+| Framework    | React.js (with Vite)   |
+| Styling      | Custom CSS             |
+| Animations   | Framer Motion          |
+| Icons        | Emoji / React Icons    |
+| Chat Feature | Mocked OpenAI API      |
+| Deployment   | GitHub Pages / Netlify |
+
+---
+
+## ✨ Features Implemented
+
+### 🧱 Core Sections
+
+- ✅ **Hero Section** with Headline, Subheading, CTA button
+- ✅ **How It Works** – Three steps (Upload → Get Valuation → Get Paid)
+- ✅ **Why Choose Us** – 4 value props with icons
+- ✅ **Testimonials** – 2 dummy customer reviews (name, role, company)
+- ✅ **Contact Form** – With input validation for all fields
+
+---
+
+### 🎨 UI/UX Goals Achieved
+
+- ✅ Clean and modern design
+- ✅ Fully responsive (mobile, tablet, desktop)
+- ✅ Consistent color scheme (blue/white)
+- ✅ Accessible typography and spacing
+- ✅ Interactive feedback on actions (form, toggle)
+
+---
+
+## ⚙️ How to Run Locally
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/Pawanmark52/Softsell.git
+cd softsell
+
+# 2. Install dependencies
+npm install
+
+# 3. Start the dev server
+npm run dev
+🧠 Bonus Features
+Feature	Implemented
+SEO Meta Tags + Page Title	✅
+Favicon + Logo Placeholder	✅
+Light / Dark Mode Toggle	✅
+Framer Motion Animations	✅
+LLM-powered Chat Widget (Mock)	✅
+
+🕒 Time Spent
+Task	Time
+Initial Setup	15 mins
+Component Layout	2 hrs
+Custom Styling (responsive)	3 hrs
+Validation & Animations	1.5 hrs
+Chat Widget (mocked)	1 hr
+Dark Mode + SEO + README	1 hr
+Total	~9 hrs
+
+📂 Folder Structure
+bash
+Copy
+Edit
+src/
+├── assets/              # Logo, illustrations
+├── components/          # All React UI sections
+│   ├── HeroSection.jsx
+│   ├── HowItWorks.jsx
+│   ├── WhyChooseUs.jsx
+│   ├── Testimonials.jsx
+│   └── ContactForm.jsx
+├── App.jsx              # Root app component
+├── main.jsx             # Entry point
+├── styles/*.css         # Component-specific styles
+💬 Example Chat Widget Prompts
+The mock AI-powered assistant can respond to these hardcoded queries:
+
+“How do I sell my license?”
+
+“Is this secure?”
+
+“How long does it take to get paid?”
+
+👨‍💻 Author
+Pawan Soni
+
+🔗 LinkedIn : www.linkedin.com/in/pawan-soni-786570259
+
+🌐 Portfolio
+
+📄 License
+This project is licensed under the MIT License.
+
+🏁 Conclusion
+This project was created in response to the Credex internship assignment, with an emphasis on:
+
+Component-based design
+
+Fast turnaround
+
+Modern frontend techniques
+
+Thanks for the opportunity!
+```
